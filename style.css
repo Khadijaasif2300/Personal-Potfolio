@@ -308,29 +308,73 @@ footer {
     transform: translateY(-3px);
 }
 
-@media(max-width:768px){
-.hero{
-flex-direction:column;
-text-align: center;
-padding-top: 8rem;
-}
+@media (max-width: 768px) {
+    /* Navbar */
+    .nav-links {
+        display: none; /* hide nav links on mobile (can add hamburger later) */
+    }
 
-.hero-content{
-padding-right: θ;
-margin-bottom: 3rem;
-}
+    .logo {
+        font-size: 1.5rem;
+        padding-left: 1em;
+    }
 
-.profile-img{
-width: 280px;
-height: 280px;
-}
+    .resume-btn {
+        display: none; /* optional: hide resume button on small screens */
+    }
 
-.nav-links{
-display: none;
-}
+    /* Hero Section */
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 8rem 5% 3rem;
+    }
 
-.logo{
-font-size: 1.5rem;
-padding-left: 2em;
-}
+    .hero-content {
+        padding-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .profile-img {
+        width: 250px;
+        height: 250px;
+    }
+
+    /* Skills Grid */
+    .skills-grid {
+        grid-template-columns: 1fr; /* stack cards */
+    }
+
+    /* Projects Grid */
+    .projects-grid {
+        grid-template-columns: 1fr; /* stack project cards */
+    }
+
+    .project-card img {
+        height: 160px;
+    }
+
+    /* Contact Info */
+    .contact-info {
+        gap: 0.8rem;
+    }
+
+    .contact-info p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    /* Footer */
+    .social-links {
+        flex-wrap: wrap;
+        gap: 1.2rem;
+    }
 }
