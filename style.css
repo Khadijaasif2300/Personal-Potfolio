@@ -309,18 +309,19 @@ footer {
 }
 
 @media (max-width: 768px) {
-    /* Navbar */
-    .nav-links {
-        display: none; /* hide nav links on mobile (can add hamburger later) */
+    /* Hide all nav links */
+    .nav-links li {
+        display: none;
+    }
+
+    /* Show only the resume button */
+    .nav-links li:last-child {
+        display: block;
     }
 
     .logo {
         font-size: 1.5rem;
         padding-left: 1em;
-    }
-
-    .resume-btn {
-        display: none; /* optional: hide resume button on small screens */
     }
 
     /* Hero Section */
