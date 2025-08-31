@@ -1,45 +1,23 @@
-# Personal Portfolio
-
-> Your one-stop snapshot! A modern, responsive personal portfolio showcasing projects, skills, and achievements.
-
-##  Table of Contents
-
-- [About Me](#about-me)  
-- [Features](#features)  
-- [Technologies Used](#technologies-used)  
-- [Live Demo](#live-demo) *(optional)*  
-- [Screenshots](#screenshots) *(optional)*  
-- [How to Run Locally](#how-to-run-locally)  
-- [Projects](#projects)  
-- [Contact](#contact)  
-- [License](#license)
+🌐 Khadija’s Portfolio
+Welcome to my personal portfolio website!  
+This portfolio showcases my skills, projects, and experiences as a **Frontend Developer**.  
+It reflects my journey, the work I’ve done, and the technologies I’m passionate about.
 
 ---
 
-## About Me
-
-Hi there! I’m **[Khadija Asif]**, a passionate developer skilled in crafting clean and modern web experiences. This portfolio spotlights my design sense, technical abilities, and projects.
-
----
-
-## Features
-
-- Mobile-first, fully responsive design  
-- Smooth, sleek UI & UX  
-- Interactive components and polished animations  
-- Easy to customize and extend  
-- Includes your résumé in PDF format  
+✨ Features
+- 🎨 Smooth and responsive design with clean UI  
+- 📂 Project showcase with descriptions and links  
+- 👩‍💻 About section with skills and background  
+- 📬 Contact form for easy communication  
+- 📑 Resume download option in the navbar  
 
 ---
 
-## Technologies Used
-
-| Technologies   | Usage                          |
-|----------------|--------------------------------|
-| HTML5           | Semantic structure             |
-| CSS3 (Flexbox/Grid) | Layout and styling         |
-| JavaScript      | Interactions and animations    |
-
+🛠️ Tech Stack
+- ⚡ **HTML5**  
+- 🎨 **CSS3 (Flexbox, Grid, Animations)**  
+- ⚡ **JavaScript (ES6)**  
 ---
 
 ## Live Demo
