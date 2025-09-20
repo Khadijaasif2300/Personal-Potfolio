@@ -158,9 +158,10 @@ body {
 }
 /* About Section */
 .about-section {
-  padding: 80px 20px;
-  background: var(--dark-bg);   /* dark background */
+  padding: 10rem 5%;
+  background: var(--darker-bg);   /* dark background */
   text-align: center;
+  min-height: 100vh;
 }
 
 .about-section h2 {
@@ -198,8 +199,9 @@ body {
 }
 
 .skills {
-    padding: 5rem 5%;
-    background: var(--darker-bg);
+    padding: 10rem 5%;
+    background: var(--dark-bg);
+    min-height: 100vh;
 }
 
 .skills-grid {
@@ -231,8 +233,9 @@ body {
 }
 
 .projects {
-    padding: 5rem 5%;
-    background: var(--dark-bg);
+    padding: 10rem 5%;
+    background: var(--darker-bg);
+    min-height: 100vh;
 }
 
 .projects-grid {
@@ -290,8 +293,9 @@ body {
 }
 
 .contact {
-    padding: 5rem 5%;
-    background: var(--darker-bg);
+    padding: 8rem 5%;
+    background: var(--dark-bg);
+    width: 100%;
 }
 
 .contact-info {
