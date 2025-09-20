@@ -156,6 +156,46 @@ body {
     position: relative;
     overflow: hidden;
 }
+/* About Section */
+.about-section {
+  padding: 80px 20px;
+  background: var(--dark-bg);   /* dark background */
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  color: var(--accent);         /* accent color for heading */
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  color: var(--text);           /* white text */
+  max-width: 800px;
+  margin: 10px auto;
+  line-height: 1.8;
+}
+
+.about-section .btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 30px;
+  background-color: var(--accent);   /* green accent */
+  color: var(--dark-bg);             /* contrast text */
+  font-size: 1rem;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0px 0px 15px var(--accent-glow);
+}
+
+.about-section .btn:hover {
+  background-color: var(--darker-bg); /* darker background on hover */
+  color: var(--accent);               /* accent text on hover */
+  box-shadow: 0px 0px 25px var(--accent-glow);
+}
 
 .skills {
     padding: 5rem 5%;
